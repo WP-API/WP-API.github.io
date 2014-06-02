@@ -70,12 +70,12 @@
 				switch ($el[0].nodeName) {
 					case 'H3':
 						var text = $el.prevAll("h2").first().text();
-						var id = slugify(text) + '.' + id;
+						var id = slugify(text) + '_' + id;
 						// Fall-through
 
 					case 'H2':
 						var text = $el.prevAll("h1").first().text();
-						var id = slugify(text) + '.' + id;
+						var id = slugify(text) + '_' + id;
 
 				}
 				$el.attr('id', id);
