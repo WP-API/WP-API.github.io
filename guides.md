@@ -10,6 +10,6 @@ and mention tips and tricks for using it.
   including filtering and additional data.
 * [Extending the API][]: Create your own API routes and endpoints in a plugin.
 
-[Getting Started]: getting-started.md
-[Working with Posts]: working-with-posts.md
-[Extending the API]: extending.md
+[Getting Started]: http://wp-api.org/guides.html#getting-started
+[Working with Posts]: http://wp-api.org/guides.html#working-with-posts
+[Extending the API]: http://wp-api.org/guides.html#extending-the-api
