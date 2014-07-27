@@ -16,9 +16,8 @@ want to work with custom post types, also read the [Working With Posts][] guide.
 You should also have a pretty good knowledge of working with actions and filters
 in WordPress, as well as how plugins work in general.
 
-[Getting Started]: getting-started.md
-[Working with Posts]: working-with-posts.md
-
+[Getting Started]: http://wp-api.org/guides.html#getting-started
+[Working with Posts]: http://wp-api.org/guides.html#working-with-posts
 
 A Philosophy Lesson
 -------------------
@@ -350,6 +349,6 @@ improving the built-in APIs.
   own entity design.
 * [Internal Implementation][]: Learn about how the REST server works internally.
 
-[API Philosophy]: ../internals/philosophy.md
-[Schema]: ../schema.md
-[Internal Implementation]: ../internals/implementation.md
+[API Philosophy]: https://github.com/WP-API/WP-API/blob/master/docs/internals/philosophy.md
+[Schema]: https://github.com/WP-API/WP-API/blob/master/docs/schema.md
+[Internal Implementation]: https://github.com/WP-API/WP-API/blob/master/docs/internals/implementation.md

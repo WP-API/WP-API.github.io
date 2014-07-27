@@ -468,7 +468,7 @@ get exploring!
 * [Schema][schema]: View technical information on all the available data
 * [Authentication][auth]: Explore authentication options
 
-[Working with Posts]: working-with-posts.md
-[schema]: ../schema.md
-[auth]: ../authentication.md
+[Working with Posts]: http://wp-api.org/guides.html#working-with-posts
+[schema]: https://github.com/WP-API/WP-API/blob/master/docs/schema.md
+[auth]: https://github.com/WP-API/WP-API/blob/master/docs/authentication.md
 [basic-auth-plugin]: https://github.com/WP-API/Basic-Auth
