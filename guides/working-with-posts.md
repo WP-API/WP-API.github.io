@@ -280,8 +280,8 @@ take a look at the other APIs, or look at documentation on the specifics.
 * [Schema][schema]: Full documentation of every parameter for the APIs.
 * [Extending the API][]: Create your own API endpoints.
 
-[Getting Started]: getting-started.md
-[Extending the API]: extending.md
-[schema]: ../schema.md
+[Getting Started]: http://wp-api.org/guides.html#getting-started
+[Extending the API]: http://wp-api.org/guides.html#extending-the-api
+[schema]: https://github.com/WP-API/WP-API/blob/master/docs/schema.md
 [WP_Query]: http://codex.wordpress.org/Class_Reference/WP_Query
-[array-style URL formatting]: ../compatibility.md#inputting-data-as-an-array
+[array-style URL formatting]: https://github.com/WP-API/WP-API/blob/master/docs/compatibility.md#inputting-data-as-an-array
