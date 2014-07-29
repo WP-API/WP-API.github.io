@@ -1,0 +1,5 @@
+baseurl: /docs-development
+pygments: true
+markdown: kramdown
+kramdown:
+    input: GFM
