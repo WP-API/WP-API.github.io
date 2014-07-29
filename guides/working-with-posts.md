@@ -1,3 +1,7 @@
+---
+title: WP API Documentation
+layout: guide
+---
 Working with Posts
 ==================
 Back in the [Getting Started][] guide we used posts to demonstrate how to work
@@ -280,8 +284,8 @@ take a look at the other APIs, or look at documentation on the specifics.
 * [Schema][schema]: Full documentation of every parameter for the APIs.
 * [Extending the API][]: Create your own API endpoints.
 
-[Getting Started]: http://wp-api.org/guides.html#getting-started
-[Extending the API]: http://wp-api.org/guides.html#extending-the-api
-[schema]: https://github.com/WP-API/WP-API/blob/master/docs/schema.md
+[Getting Started]: getting-started.html
+[Extending the API]: extending.html
+[schema]: ../schema.html
 [WP_Query]: http://codex.wordpress.org/Class_Reference/WP_Query
-[array-style URL formatting]: https://github.com/WP-API/WP-API/blob/master/docs/compatibility.md#inputting-data-as-an-array
+[array-style URL formatting]: ../compatibility.html#inputting-data-as-an-array

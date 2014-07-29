@@ -1,0 +1,36 @@
+---
+title: WP REST API Documentation
+---
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+
+	<title>{{ page.title }}</title>
+
+	<!-- Flatdoc -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
+
+	<script src="http://rstacruz.github.io/flatdoc/v/0.8.0/theme-white/script.js"></script>
+	<script src="{{ site.baseurl }}/js/sidebar.js"></script>
+
+	<!-- Meta -->
+	<meta content="WP API" property="og:title">
+	<meta content="Official Documentation for the WP REST API" name="description">
+</head>
+
+{% include header.html %}
+
+<div class="content-root">
+
+{% include sidebar.html %}
+
+	<div class="content">{{ content }}</div>
+</div>
+
+{% include footer.html %}
