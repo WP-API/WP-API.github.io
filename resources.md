@@ -51,9 +51,11 @@ Slides & Videos
 
 * [Rachel Baker: Put Your Content to REST With WP-API][]
 * [The WordPress JSON REST API][]
+* [Heartbeat + WP REST API][]
 
 [Rachel Baker: Put Your Content to REST With WP-API]: http://wordpress.tv/2014/07/06/rachel-baker-put-your-content-to-rest-with-wp-api/
 [The WordPress JSON REST API]: https://speakerdeck.com/rmccue/wcmke2014
+[Heartbeat + WP REST API]: http://www.getsource.net/wp-content/uploads/2014/08/WCNYC-Heartbeat.pdf
 
 REST Info & Tools
 -----------------
