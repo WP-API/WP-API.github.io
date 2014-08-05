@@ -46,6 +46,18 @@ Tools
 [API client UI]: https://github.com/modemlooper/Api-Clients
 
 
+WordPress Plugin Integrations
+------------------------------
+* [BuddyPress][]
+* [Pods Framework][]
+* [WooCommerce][]
+
+[BuddyPress]: https://github.com/modemlooper/buddypress-json-api
+[Pods Framework]: https://github.com/pods-framework/pods-json-api
+[WooCommerce]: http://woothemes.github.io/woocommerce/rest-api
+
+
+
 Slides & Videos
 ---------------
 
