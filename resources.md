@@ -81,3 +81,14 @@ REST Info & Tools
 [Postman HTTP Chrome Plugin]: https://www.getpostman.com/
 [Paw HTTP App for OSX]: http://luckymarmot.com/paw
 [JSONView Chrome Extension]: https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc
+
+Tutorials
+---------
+
+* [Using the WordPress REST API in a mobile app][] A detailed tutorial with complete example code on the basics of using the REST API in a app outside of WordPress.
+* [WordPress REST API][] A basic introduction to the REST API.
+* [A Look at the WordPress HTTP API][] Part of a series on the WordPress HTTP API, which can be used to interact with the WordPress REST API from within WordPress.
+
+[Using the WordPress REST API in a mobile app]: http://apppresser.com/using-wordpress-rest-api-mobile-app/)
+[WordPress REST API]: http://themergency.com/wordpress-rest-api/
+[A Look at the WordPress HTTP API]: http://code.tutsplus.com/tutorials/a-look-at-the-wordpress-http-api-a-review--wp-32531
