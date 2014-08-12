@@ -89,6 +89,6 @@ Tutorials
 * [WordPress REST API][] A basic introduction to the REST API.
 * [A Look at the WordPress HTTP API][] Part of a series on the WordPress HTTP API, which can be used to interact with the WordPress REST API from within WordPress.
 
-[Using the WordPress REST API in a mobile app]: http://apppresser.com/using-wordpress-rest-api-mobile-app/)
+[Using the WordPress REST API in a mobile app]: http://apppresser.com/using-wordpress-rest-api-mobile-app/
 [WordPress REST API]: http://themergency.com/wordpress-rest-api/
 [A Look at the WordPress HTTP API]: http://code.tutsplus.com/tutorials/a-look-at-the-wordpress-http-api-a-review--wp-32531
