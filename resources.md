@@ -88,12 +88,14 @@ Tutorials
 * [Using the WordPress REST API in a mobile app][] A detailed tutorial with complete example code on the basics of using the REST API in a app outside of WordPress.
 * [WordPress REST API][] A basic introduction to the REST API.
 * [A Look at the WordPress HTTP API][] Part of a series on the WordPress HTTP API, which can be used to interact with the WordPress REST API from within WordPress.
+* [Designing a class: WordPress API client][] Guide to building a class for making GET requests to the REST API's users end point via the WordPress HTTP API.
 * [An Introduction To The JSON REST API][] An introduction to intreacting with the REST API from inside of WordPress, showing how to retrive and display data from the current site or a remote site via GET requests.
 * [An Introduction To The JSON REST API Part2][] More information on how interact with the REST API from inside of  WordPress, showing how to create posts using data from a remote site, or create posts on a remote site.
 
 [Using the WordPress REST API in a mobile app]: http://apppresser.com/using-wordpress-rest-api-mobile-app/
 [WordPress REST API]: http://themergency.com/wordpress-rest-api/
 [A Look at the WordPress HTTP API]: http://code.tutsplus.com/tutorials/a-look-at-the-wordpress-http-api-a-review--wp-32531
+[Designing a class: WordPress API client]: http://carlalexander.ca/designing-class-wordpress-api-client
 [An Introduction To The JSON REST API]:
 http://torquemag.io/introduction-wordpress-new-universal-connector-json-rest-api/
 [An Introduction To The JSON REST API Part2]: http://torquemag.io/introduction-wordpress-rest-api-part-2/
