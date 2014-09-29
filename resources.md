@@ -49,10 +49,12 @@ Tools
 WordPress Plugin Integrations
 ------------------------------
 * [BuddyPress][]
+* [bbPress][]
 * [Pods Framework][]
 * [WooCommerce][]
 
 [BuddyPress]: https://github.com/modemlooper/buddypress-json-api
+[bbPress]: https://github.com/thenbrent/BB-API
 [Pods Framework]: https://github.com/pods-framework/pods-json-api
 [WooCommerce]: http://woothemes.github.io/woocommerce/rest-api
 
@@ -64,10 +66,12 @@ Slides & Videos
 * [Rachel Baker: Put Your Content to REST With WP-API][]
 * [The WordPress JSON REST API][]
 * [Heartbeat + WP REST API][]
+* [Taylor Lovett: JSON REST API for WordPress][]
 
 [Rachel Baker: Put Your Content to REST With WP-API]: http://wordpress.tv/2014/07/06/rachel-baker-put-your-content-to-rest-with-wp-api/
 [The WordPress JSON REST API]: https://speakerdeck.com/rmccue/wcmke2014
 [Heartbeat + WP REST API]: http://www.getsource.net/wp-content/uploads/2014/08/WCNYC-Heartbeat.pdf
+[Taylor Lovett: JSON REST API for WordPress]: http://www.slideshare.net/tlovett1/json-rest-api-for-wordpress-39599181
 
 REST Info & Tools
 -----------------
@@ -96,6 +100,5 @@ Tutorials
 [WordPress REST API]: http://themergency.com/wordpress-rest-api/
 [A Look at the WordPress HTTP API]: http://code.tutsplus.com/tutorials/a-look-at-the-wordpress-http-api-a-review--wp-32531
 [Designing a class: WordPress API client]: http://carlalexander.ca/designing-class-wordpress-api-client
-[An Introduction To The JSON REST API]:
-http://torquemag.io/introduction-wordpress-new-universal-connector-json-rest-api/
+[An Introduction To The JSON REST API]: http://torquemag.io/introduction-wordpress-new-universal-connector-json-rest-api/
 [An Introduction To The JSON REST API Part2]: http://torquemag.io/introduction-wordpress-rest-api-part-2/
