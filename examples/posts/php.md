@@ -1,14 +1,16 @@
 Requests to the API, from within WordPress, or any other HTTP request should use [the WordPress HTTP API](http://codex.wordpress.org/HTTP_API).
 
-All URLs should be constructed using either the function `json_url()` or `get_json_url()` when using multisite. These functions will return the root URL for the API, according to the current permalink structure. In addition, they will take into account the current value of the 'json_url' filter, which can be used to change the root url for the API.
+When making requests to a the current site, URLs should be constructed using either the function `json_url()` or `get_json_url()` for a site in a multisite network other than the current site. These functions will return the root URL for the API, according to the current permalink structure. In addition, they will take into account the current value of the 'json_url' filter, which can be used to change the root url for the API.
 
-The URL for the simplest request to the posts route, which would return the most recent posts, would be constructed with `json_url( 'posts' );`
+The URL for the simplest request to the posts route, using these functions, which would return the most recent posts, would be constructed with `json_url( 'posts' );`
+
+The example code below use an undefined variable `$root_url` which should be the root URL for the site's API.
 
 ### Get Most Recent Posts
 * Number of posts will equal the posts_per_page option
 ``` php
     //create url
-    $url = json_url( 'posts' );
+    $url = $base_url . 'posts';
     
     //Make request via the WordPress HTTP API
     $response = wp_remote_get( $url );
@@ -32,7 +34,7 @@ The URL for the simplest request to the posts route, which would return the most
 
 ``` php
     //create url
-    $url = json_url( 'posts/42' );
+   $url = $base_url . 'posts/42';
     
     //Make request via the WordPress HTTP API
     $response = wp_remote_get( $url );
@@ -62,7 +64,9 @@ In order to add filters to the request URL, use `add_query_args()` to generate t
         'filter[order]' => 'DESC'
     );
     
-    $url = add_query_arg( $args, json_url( 'posts' ) );
+    //construct URL
+    $url = $base_url . 'posts';
+    $url = add_query_arg( $args, $url );
     
     //Make request via the WordPress HTTP API
     $response = wp_remote_get( $url );
@@ -90,7 +94,7 @@ In order to add filters to the request URL, use `add_query_args()` to generate t
     $post = json_encode( $post );
     
     //URL for posts route
-    $url = json_url( 'posts' );
+    $url = $base_url . 'posts';
     
     //prepare headers with basic authentication
     $headers    = array (
@@ -132,7 +136,7 @@ In order to add filters to the request URL, use `add_query_args()` to generate t
     $post = json_encode( $post );
     
     //URL for this post
-    $url = json_url( 'posts/42' );
+    $url = $base_url .  'posts/42';
     
     //prepare headers with basic authentication
     $headers    = array (
