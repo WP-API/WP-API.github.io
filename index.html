@@ -31,7 +31,7 @@ title: WP API Documentation
 			var sort = {};
 			for (var i = multi.length - 1; i >= 0; i--) {
 				var bits = multi[i];
-				var url = 'https://api.github.com/repos/'+bits.repo+'/contents/'+bits.filepath;
+				var url = 'https://api.github.com/repos/'+bits.repo+'/contents/'+bits.filepath+'?ref=master';
 				sort[bits.filepath] = i;
 
 				urls.push(url);
