@@ -473,6 +473,6 @@ get exploring!
 * [Authentication][auth]: Explore authentication options
 
 [Working with Posts]: working-with-posts.html
-[schema]: ../schema.html
-[auth]: ../authentication.html
+[schema]: ../../
+[auth]: authentication.html
 [basic-auth-plugin]: https://github.com/WP-API/Basic-Auth

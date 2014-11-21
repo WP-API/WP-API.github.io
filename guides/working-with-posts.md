@@ -286,6 +286,6 @@ take a look at the other APIs, or look at documentation on the specifics.
 
 [Getting Started]: getting-started.html
 [Extending the API]: extending.html
-[schema]: ../schema.html
+[schema]: ../../
 [WP_Query]: http://codex.wordpress.org/Class_Reference/WP_Query
 [array-style URL formatting]: ../compatibility.html#inputting-data-as-an-array
