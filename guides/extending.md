@@ -355,5 +355,5 @@ improving the built-in APIs.
 * [Internal Implementation][]: Learn about how the REST server works internally.
 
 [API Philosophy]: ../internals/philosophy.html
-[Schema]: ../schema.html
+[Schema]: ../../
 [Internal Implementation]: ../internals/implementation.html
