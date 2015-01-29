@@ -43,3 +43,22 @@ We recommend using Vagrant. Here's how you do that:
     $ jekyll serve
   ```
 
+
+## Style Guide
+
+This guide is a limited implementation of [Carwin's Markdown Style Guidelines](https://github.com/carwin/markdown-styleguide).
+
+- Wrap all lines at 80 characters.  
+- Denote **bold** text using the asterisk format: `**bold text**`.
+- Denote _italic_ text using the underscore format: `_emphasized text_`.
+- Force a linebreak by ending a line with two spaces, no more.
+- Header text must use the `atx-style` with no closing `#` character.
+- Include a space between the `#` and the text of the Header.
+- List item lines exceeding 80 characters should, when wrapped, align
+  vertically with the beginning of the preceding line's text.  
+- **Inline code** must use single backticks and must not have spaces between
+  the backtick characters and the code.
+- **Fenced code blocks** must be preceded and followed by a newline.
+- When used inside _list items_, **fenced code blocks** must be indented as if
+  they were one level deeper that the list item that contains them.
+
