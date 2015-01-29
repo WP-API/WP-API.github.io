@@ -11,20 +11,35 @@ the [best in the world][gh-3], but we're not there yet!
 [gh-3]: https://github.com/WP-API/WP-API.github.io/issues/1
 
 
+## Running Locally
+
+This site is hosted on Github pages and powered by Jekyll.
+
+  ```bash
+    bundle install
+    bundle exec jekyll serve -w
+  ```
+
+then visit `localhost:4000` in your favorite browser. You can learn more about
+using Jekyll and Github pages from their [documentation](https://help.github.com/articles/using-jekyll-with-pages/).
+
+### Using Vagrant
+
 We recommend using Vagrant. Here's how you do that:
 
-```bash
-$ vagrant up
-$ vagrant ssh
+  ```bash
+    $ vagrant up
+    $ vagrant ssh
 
-# Following commands are now executed on the box
-# These install everything you need
-$ cd /vagrant
-$ sudo apt-get update
-$ sudo apt-get install ruby1.9.3 rubygems make
-$ sudo gem install bundler
-$ bundle install
+    # Following commands are now executed on the box
+    # These install everything you need
+    $ cd /vagrant
+    $ sudo apt-get update
+    $ sudo apt-get install ruby1.9.3 rubygems make
+    $ sudo gem install bundler
+    $ bundle install
 
-# To run the site:
-$ jekyll serve
-```
+    # To run the site:
+    $ jekyll serve
+  ```
+
