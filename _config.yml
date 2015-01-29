@@ -1,5 +1,7 @@
 baseurl: /
+encoding: utf-8
 highlighter: pygments
 markdown: kramdown
 kramdown:
     input: GFM
+    line_width: 80
