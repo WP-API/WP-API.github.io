@@ -106,4 +106,4 @@ Tutorials
 [A Look at the WordPress HTTP API]: http://code.tutsplus.com/tutorials/a-look-at-the-wordpress-http-api-a-review--wp-32531
 [Designing a class: WordPress API client]: http://carlalexander.ca/designing-class-wordpress-api-client
 [An Introduction To The JSON REST API]: http://torquemag.io/introduction-wordpress-new-universal-connector-json-rest-api/
-[An Introduction To The JSON REST API Part2]: http://torquemag.io/introduction-wordpress-rest-api-part-2/
+[An Introduction To The JSON REST API Part 2]: http://torquemag.io/introduction-wordpress-rest-api-part-2/
