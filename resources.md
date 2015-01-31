@@ -39,11 +39,13 @@ Tools
 * [API Console][]
 * [WP JSON API Connect][]
 * [API client UI][]
+* [_s_backbone][]
 
 [WP-CLI client]: https://github.com/WP-API/client-cli
 [API Console]: https://github.com/WP-API/api-console
 [WP JSON API Connect]: https://github.com/WebDevStudios/WP_JSON_API_Connect
 [API client UI]: https://github.com/modemlooper/Api-Clients
+[_s_backbone]: https://github.com/tlovett1/_s_backbone
 
 
 WordPress Plugin Integrations
@@ -67,11 +69,14 @@ Slides & Videos
 * [The WordPress JSON REST API][]
 * [Heartbeat + WP REST API][]
 * [Taylor Lovett: JSON REST API for WordPress][]
+* [Ryan McCue: The WordPress REST API][]
 
 [Rachel Baker: Put Your Content to REST With WP-API]: http://wordpress.tv/2014/07/06/rachel-baker-put-your-content-to-rest-with-wp-api/
 [The WordPress JSON REST API]: https://speakerdeck.com/rmccue/wcmke2014
 [Heartbeat + WP REST API]: http://www.getsource.net/wp-content/uploads/2014/08/WCNYC-Heartbeat.pdf
 [Taylor Lovett: JSON REST API for WordPress]: http://www.slideshare.net/tlovett1/json-rest-api-for-wordpress-39599181
+[Ryan McCue: The WordPress REST API]: http://wordpress.tv/2014/11/19/ryan-mccue-the-wordpress-rest-api/
+
 
 REST Info & Tools
 -----------------
@@ -94,7 +99,7 @@ Tutorials
 * [A Look at the WordPress HTTP API][] Part of a series on the WordPress HTTP API, which can be used to interact with the WordPress REST API from within WordPress.
 * [Designing a class: WordPress API client][] Guide to building a class for making GET requests to the REST API's users end point via the WordPress HTTP API.
 * [An Introduction To The JSON REST API][] An introduction to intreacting with the REST API from inside of WordPress, showing how to retrive and display data from the current site or a remote site via GET requests.
-* [An Introduction To The JSON REST API Part2][] More information on how interact with the REST API from inside of  WordPress, showing how to create posts using data from a remote site, or create posts on a remote site.
+* [An Introduction To The JSON REST API Part 2][] More information on how interact with the REST API from inside of  WordPress, showing how to create posts using data from a remote site, or create posts on a remote site.
 
 [Using the WordPress REST API in a mobile app]: http://apppresser.com/using-wordpress-rest-api-mobile-app/
 [WordPress REST API]: http://themergency.com/wordpress-rest-api/
