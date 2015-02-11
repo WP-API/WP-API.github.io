@@ -1,7 +1,7 @@
 # WP REST API Documentation Site
 
 This repository is the source for [wp-api.org][gh-1]. It powers documentation for the 
-[JSON REST API (WP-API)][gh-2] plugin. We are working on making this documentation 
+[WP REST API (WP-API)][gh-2] plugin. We are working on making this documentation 
 the [best in the world][gh-3], but we're not there yet!
 
 **[Read the Docs ☞][gh-1]**
