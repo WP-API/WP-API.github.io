@@ -39,13 +39,11 @@ Tools
 * [API Console][]
 * [WP JSON API Connect][]
 * [API client UI][]
-* [_s_backbone][]
 
 [WP-CLI client]: https://github.com/WP-API/client-cli
 [API Console]: https://github.com/WP-API/api-console
 [WP JSON API Connect]: https://github.com/WebDevStudios/WP_JSON_API_Connect
 [API client UI]: https://github.com/modemlooper/Api-Clients
-[_s_backbone]: https://github.com/tlovett1/_s_backbone
 
 
 WordPress Plugin Integrations
