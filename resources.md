@@ -67,13 +67,14 @@ Slides & Videos
 * [The WordPress JSON REST API][]
 * [Heartbeat + WP REST API][]
 * [Taylor Lovett: JSON REST API for WordPress][]
-* [K. Adam White: WordPress in Weird Places][]
+* [Ryan McCue: The WordPress REST API][]
 
 [Rachel Baker: Put Your Content to REST With WP-API]: http://wordpress.tv/2014/07/06/rachel-baker-put-your-content-to-rest-with-wp-api/
 [The WordPress JSON REST API]: https://speakerdeck.com/rmccue/wcmke2014
 [Heartbeat + WP REST API]: http://www.getsource.net/wp-content/uploads/2014/08/WCNYC-Heartbeat.pdf
 [Taylor Lovett: JSON REST API for WordPress]: http://www.slideshare.net/tlovett1/json-rest-api-for-wordpress-39599181
-[K. Adam White: WordPress in Weird Places]: http://kadamwhite.github.io/talks/2014/wcsf-node-wp/#/
+[Ryan McCue: The WordPress REST API]: http://wordpress.tv/2014/11/19/ryan-mccue-the-wordpress-rest-api/
+
 
 REST Info & Tools
 -----------------
@@ -90,27 +91,20 @@ REST Info & Tools
 
 Tutorials
 ---------
-* [An Overview of the WordPress JSON API][] Detailed Overview of the REST API projects and helpful links.
+
 * [Using the WordPress REST API in a mobile app][] A detailed tutorial with complete example code on the basics of using the REST API in a app outside of WordPress.
 * [WordPress REST API][] A basic introduction to the REST API.
 * [A Look at the WordPress HTTP API][] Part of a series on the WordPress HTTP API, which can be used to interact with the WordPress REST API from within WordPress.
 * [Designing a class: WordPress API client][] Guide to building a class for making GET requests to the REST API's users end point via the WordPress HTTP API.
-* [An Introduction To The JSON REST API][] An introduction to interacting with the REST API from inside of WordPress, showing how to retrieve and display data from the current site or a remote site via GET requests.
-* [An Introduction To The JSON REST API Part2][] More information on how interact with the REST API from inside of  WordPress, showing how to create posts using data from a remote site, or create posts on a remote site.
-* [Using AngularJS And JSON API In Your WordPress Theme][] An introduction to using the REST API, and Angular JS in a WordPress theme.
-* [Working with Meta Data Using the JSON REST API][] Using the REST API to work with post meta data. 
-* [Working with Taxonomies Using the JSON REST API][] Using the REST API to work with taxonomies.
-* [Processing Forms with AJAX Using the JSON REST API][] A guide to using the REST API to edit posts using AJAX.
+* [An Introduction To The JSON REST API][] An introduction to intreacting with the REST API from inside of WordPress, showing how to retrive and display data from the current site or a remote site via GET requests.
+* [An Introduction To The JSON REST API Part 2][] More information on how interact with the REST API from inside of  WordPress, showing how to create posts using data from a remote site, or create posts on a remote site.
+* [An Overview of the WordPress JSON API][]  A good overview of the API, breaking it down, giving an AJAX example of interacting with the API, and some usage examples.
 
-[An Overview of the WordPress JSON API]:http://webdevstudios.com/2014/10/16/an-overview-of-wordpress-json-api/
 [Using the WordPress REST API in a mobile app]: http://apppresser.com/using-wordpress-rest-api-mobile-app/
 [WordPress REST API]: http://themergency.com/wordpress-rest-api/
 [A Look at the WordPress HTTP API]: http://code.tutsplus.com/tutorials/a-look-at-the-wordpress-http-api-a-review--wp-32531
 [Designing a class: WordPress API client]: http://carlalexander.ca/designing-class-wordpress-api-client
 [An Introduction To The JSON REST API]: http://torquemag.io/introduction-wordpress-new-universal-connector-json-rest-api/
-[An Introduction To The JSON REST API Part2]: http://torquemag.io/introduction-wordpress-rest-api-part-2/
-[Using AngularJS And JSON API In Your WordPress Theme]: http://1fix.io/blog/2014/11/05/angularjs-json-api-wp-theme/
-[Working with Meta Data Using the JSON REST API]: http://torquemag.io/working-meta-data-using-json-rest-api/
-[Working with Taxonomies Using the JSON REST API]: http://torquemag.io/working-taxonomies-using-json-rest-api/
-[Processing Forms with AJAX Using the JSON REST API]: http://torquemag.io/processing-forms-ajax-using-json-rest-api/
+[An Introduction To The JSON REST API Part 2]: http://torquemag.io/introduction-wordpress-rest-api-part-2/
+[An Overview of the WordPress JSON API]: http://webdevstudios.com/2014/10/16/an-overview-of-wordpress-json-api/
 
