@@ -68,12 +68,14 @@ Slides & Videos
 * [Heartbeat + WP REST API][]
 * [Taylor Lovett: JSON REST API for WordPress][]
 * [K. Adam White: WordPress in Weird Places][]
+* [Ryan McCue: The WordPress REST API (WCNYC)][]
 
 [Rachel Baker: Put Your Content to REST With WP-API]: http://wordpress.tv/2014/07/06/rachel-baker-put-your-content-to-rest-with-wp-api/
 [The WordPress JSON REST API]: https://speakerdeck.com/rmccue/wcmke2014
 [Heartbeat + WP REST API]: http://www.getsource.net/wp-content/uploads/2014/08/WCNYC-Heartbeat.pdf
 [Taylor Lovett: JSON REST API for WordPress]: http://www.slideshare.net/tlovett1/json-rest-api-for-wordpress-39599181
 [K. Adam White: WordPress in Weird Places]: http://kadamwhite.github.io/talks/2014/wcsf-node-wp/#/
+[Ryan McCue: The WordPress REST API (WCNYC)]: https://wordpress.tv/2014/11/19/ryan-mccue-the-wordpress-rest-api/
 
 REST Info & Tools
 -----------------
