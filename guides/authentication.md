@@ -72,6 +72,7 @@ you'll need to create a "consumer". This is an identifier for the application,
 and includes a "key" and "secret", both needed to link to your site.
 
 To create the consumer, run the following on your server:
+
 ```bash
 $ wp oauth1 add
 
