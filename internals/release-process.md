@@ -5,30 +5,43 @@ layout: internals
 
 Release Process
 ===============
-Here's the process used to generate new releases for the API plugin.
 
-* Write changelog items for this release. Generate these automatically with the
-  following script:
+Time to cook up a new release? Here's the recipe for the baker.
 
-	SINCE=$1
-	if [[ -z $SINCE ]]; then
-		echo "usage: changelog <since>"
-		exit 1
-	fi
+1. Bump the version in the code (key parts are the plugin header, and version
+   constant, but grepping is the best way to find them all)
 
-	OUTPUT=$(git log $SINCE... --reverse --format="format:- %w(80,0,4)%B")
-	OUTPUT=$(echo "$OUTPUT" | awk -v nlines=2 "/^ *git-svn-id:/ {for (i=0; i<nlines; i++) {getline}; next} 1")
-	OUTPUT=$(echo "$OUTPUT" | grep -v "^$")
+2. Generate the changelog! This is the most painful part of release, since we
+   need a useful changelog. Here's how:
 
-	echo "$OUTPUT"
+   1. Run [this script](https://gist.github.com/rmccue/c95769c01aff2b486073)
+      to generate the Markdown.
 
-* Bump version in plugin.php
-* Bump version in lib/class-wp-json-server.php
-* `gsocpush` (`alias gsocpush='git svn dcommit && git push'`)
-* `git tag -a 0.x` - Tag with a message like:
+   2. Change each item to match the following format:
 
-	Version 0.x: Major Feature
+      ```
+      - Short feature summary
 
-	Summary of the big features in this release.
+        Further long-text information can go here. The summary/description split
+        is basically the same as phpDoc formatting. Like phpDoc, not every commit
+        needs a long description
 
-* Sync to plugin repo
+        (props @author, [#179][gh-179], [#240][gh-240])
+      ```
+
+      This description is either hand-written, or copied from the PR/issue
+      description.
+
+   3. Reorder the changelog items to match how important they are. Major changes
+      at the top, then other changes further down.
+
+3. Commit the changelog, then tag the release on GitHub and push the tag.
+
+4. Copy the codebase to the plugin's SVN directory, then copy the changelog into
+   the readme.txt there. Also ensure you version bump here.
+
+5. Commit readme/changes to trunk, then create new tag from that.
+
+6. Write the release post, including the top (important) section from the
+   changelog, along with any other important information.
+
