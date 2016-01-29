@@ -1,5 +1,5 @@
 ---
-title: WP REST API Documentation
+title: WP REST API (v1) Documentation
 layout: guide
 ---
 Authentication
