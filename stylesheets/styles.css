@@ -608,6 +608,12 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
 .header li a:hover {
   color: #6ABCDD;
 }
+.header li a.v2-link {
+    background: #008CBA;
+    border-radius: 3px;
+    text-align: center;
+}
+
 @media (min-width: 480px) /* Tablet & Desktop */ {
   .header h1 {
     float: left;
