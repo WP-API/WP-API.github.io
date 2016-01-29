@@ -5,5 +5,3 @@ markdown: kramdown
 kramdown:
     input: GFM
     line_width: 80
-gems:
-  - jekyll-redirect-from

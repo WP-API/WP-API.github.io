@@ -437,14 +437,13 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   font-weight: bold;
   display: inline-block;
   padding: 3px 25px;
-  border: solid 2px #2badad;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   margin-right: 15px;
 }
 .button,
 .button:visited {
-  background: #2badad;
+  background: #008CBA;
   color: #fff;
   text-shadow: none;
 }
@@ -847,22 +846,12 @@ code .comment {
   z-index: 1;
 }
 .v2-pointer {
-  padding: 30px 40px 40px;
-  max-width: 700px;
+  padding-top: 3em;
+  width: 100%;
+  text-align: center;
   font-family: Open Sans,sans-serif;
 }
-.v2-pointer p {
-  padding: 10px;
-  text-align: center;
-  // border: 3px solid #2B3D50;
-  border-radius: 6px;
-  font-size: 22px;
-}
-.v2-pointer a {
-  display: inline-block;
-  background: #008CBA;
-  color: #fff;
-  padding: 1rem 2rem 1.0625rem;
-  margin: 10px 0px 1.25rem;
-  border-radius: 3px;
+.v2-pointer .button {
+    font-size: 2em;
+    margin: 0 0 1em 0;
 }
