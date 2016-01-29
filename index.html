@@ -1,5 +1,5 @@
 ---
-title: WP API Documentation
+title: WP REST API Documentation
 ---
 <!doctype html>
 <html>
@@ -10,98 +10,42 @@ title: WP API Documentation
 
 	<title>{{ page.title }}</title>
 
-	<!-- Flatdoc -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="https://cdn.rawgit.com/rstacruz/flatdoc/gh-pages/legacy.js"></script>
-	<script src="https://cdn.rawgit.com/rstacruz/flatdoc/gh-pages/flatdoc.js"></script>
-
 	<link rel="stylesheet" href="{{ site.baseurl }}stylesheets/styles.css">
-	<link rel="stylesheet" href="{{ site.baseurl }}stylesheets/pygment_trac.css">
 
 	<script src="https://cdn.rawgit.com/rstacruz/flatdoc/gh-pages/theme-white/script.js"></script>
 
 	<!-- Meta -->
-	<meta content="WP API" property="og:title">
-	<meta content="Official Documentation for WP API" name="description">
-
-	<!-- Initializer -->
-	<script>
-		var multi_github = function(multi) {
-			var urls = [];
-			var sort = {};
-			for (var i = multi.length - 1; i >= 0; i--) {
-				var bits = multi[i];
-				var url = 'https://api.github.com/repos/'+bits.repo+'/contents/'+bits.filepath+'?ref=master';
-				sort[bits.filepath] = i;
-
-				urls.push(url);
-			};
-			return function(callback) {
-				var requests = [];
-				for (var i = urls.length - 1; i >= 0; i--) {
-					requests.push($.get(urls[i]));
-				};
-
-				var promise = $.when.apply(null, requests);
-				promise.fail(function(e) { callback(e, null); });
-				promise.done(function(data) {
-					var responses = Array.prototype.slice.call(arguments);
-					responses.sort(function (a, b) {
-						var a_path = a[0].path;
-						var b_path = b[0].path;
-						var a_index = sort[a_path];
-						var b_index = sort[b_path];
-						return b_index - a_index;
-					})
-					var markdown = '';
-					for (var i = responses.length - 1; i >= 0; i--) {
-						markdown += window.Base64.decode( responses[i][0].content );
-					};
-					callback(null, markdown);
-				});
-			};
-		};
-		function slugify(text) {
-			return text.toLowerCase().match(/[a-z0-9]+/g).join('-');
-		}
-		Flatdoc.transformer.addIDs = function($content) {
-			$content.find('h1, h2, h3').each(function() {
-				var $el = $(this);
-				var text = $el.text();
-				var id = slugify(text);
-
-				switch ($el[0].nodeName) {
-					case 'H3':
-						var text = $el.prevAll("h2").first().text();
-						var id = slugify(text) + '_' + id;
-						// Fall-through
-
-					case 'H2':
-						var text = $el.prevAll("h1").first().text();
-						var id = slugify(text) + '_' + id;
-
-				}
-				$el.attr('id', id);
-			});
-		};
-		Flatdoc.run({
-			fetcher: multi_github([
-				{ repo: "WP-API/WP-API", filepath: "README.md" },
-				{ repo: "WP-API/WP-API", filepath: "docs/routes/routes.md" },
-			])
-		});
-	</script>
+	<meta content="WP API Documentation" property="og:title">
+	<meta content="Official Documentation for WP REST API" name="description">
 </head>
 
-{% include header.html %}
+<body role="flatdoc" class="large-brief no-literate">
+
+<div class="header">
+  <div class="left">
+
+    <h1><a href="http://v2.wp-api.org/">WP REST API</a></h1>
+    <ul>
+      <li><a href="https://github.com/WP-API/WP-API">Source on GitHub</a></li>
+      <li><a href="https://github.com/WP-API/WP-API/issues">Issues</a></li>
+    </ul>
+  </div>
+  <div class="right">
+    <!-- GitHub buttons: see http://ghbtns.com -->
+    <iframe src="http://ghbtns.com/github-btn.html?user=WP-API&amp;repo=WP-API&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+  </div>
+</div>
 
 <div class="content-root">
 
 {% include sidebar.html %}
 
-	<div class="v2-pointer"><p>This site is for the legacy version (v1) of the API. <a href="http://v2.wp-api.org/">View Version 2 Documentation</a></p></div>
+	<div class="v2-pointer">
+        <p><a class="button" href="http://v2.wp-api.org/">View Version 2 Documentation</a></p>
+        <p>or continue to the <a href="/index-deprecated.html">Version 1 Documentation</a>.</p>
+    </div>
 
-	<div role="flatdoc-content" class="content"></div>
+
 </div>
 
 {% include footer.html %}
