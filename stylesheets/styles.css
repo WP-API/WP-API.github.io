@@ -599,6 +599,9 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
 .header h1 a:hover {
   color: #505050;
 }
+.header h1 span {
+    font-size: 0.78em;
+}
 .header li a {
   font-size: 0.78em;
   color: #eff0f1;
